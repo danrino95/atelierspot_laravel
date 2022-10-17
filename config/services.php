@@ -38,7 +38,7 @@ return [
     'google' => [
         'client_id' => '135729779208-9oobjvn7jqn2fn2a2lt3s3e4of7374v4.apps.googleusercontent.com',
         'client_secret' => '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',
-        'redirect' => 'http://127.0.0.1:8000/callback/google',
+        'redirect' => 'http://danrino.cf/callback/google',
       ], 
 
 ];
