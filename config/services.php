@@ -43,7 +43,7 @@ return [
       'facebook' => [
         'client_id' => '1038454806829133',
         'client_secret' => '22115177a16a9e6008f85d86a96feb30',
-        'redirect' => 'http://danrino.cf/auth/facebook',
+        'redirect' => 'http://danrino.cf/callback/facebook',
       ], 
 
 ];
