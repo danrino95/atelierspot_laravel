@@ -28,7 +28,7 @@
                             value="{{ old('email') }}" required autocomplete="email">
 
                     @error('email')
-                        <p class="mt-1 text-xs italic text-red-500">
+                        <p class="mt-1 text-xs italic text-red-400">
                             {{ $message }}
                         </p>
                     @enderror
