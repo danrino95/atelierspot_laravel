@@ -24,6 +24,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+use App\Http\Controllers\Auth\GoogleSocialiteController;
+ 
+ 
+Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle']);
+Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback']);
+
+
 
 Route::get('/home',[HomeController::class,'home'])->middleware(['auth'])->name('home');
 
