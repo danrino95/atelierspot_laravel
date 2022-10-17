@@ -133,3 +133,12 @@ Route::any('insert_listing',[ListingController::class,'insert'])->name('insert-l
 
 require __DIR__.'/auth.php';
 require __DIR__.'/admin.php';
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
