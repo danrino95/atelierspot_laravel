@@ -8,7 +8,8 @@ use App\Models\order;
 use Razorpay\Api\Api;
 use Illuminate\Http\Request;
 use Razorpay\Api\Errors\SignatureVerificationError;
-
+use App\Http\Controllers\Auth\GoogleSocialiteController;
+use App\Http\Controllers\Auth\FacebookSocialiteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,9 +24,6 @@ use Razorpay\Api\Errors\SignatureVerificationError;
 Route::get('/', function () {
     return view('welcome');
 });
-
-use App\Http\Controllers\Auth\GoogleSocialiteController;
-use App\Http\Controllers\Auth\FacebookSocialiteController;
  
  
 Route::get('auth/facebook', [FacebookSocialiteController::class, 'redirectToFB']);
