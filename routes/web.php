@@ -25,7 +25,12 @@ Route::get('/', function () {
 });
 
 use App\Http\Controllers\Auth\GoogleSocialiteController;
+use App\Http\Controllers\Auth\FacebookSocialiteController;
  
+ 
+Route::get('auth/facebook', [FacebookSocialiteController::class, 'redirectToFB']);
+Route::get('callback/facebook', [FacebookSocialiteController::class, 'handleCallback']);
+
  
 Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle']);
 Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback']);

@@ -40,5 +40,10 @@ return [
         'client_secret' => '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',
         'redirect' => 'http://danrino.cf/callback/google',
       ], 
+      'facebook' => [
+        'client_id' => '1038454806829133',
+        'client_secret' => '22115177a16a9e6008f85d86a96feb30',
+        'redirect' => 'http://danrino.cf/callback/facebook',
+      ], 
 
 ];
