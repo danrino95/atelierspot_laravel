@@ -8,7 +8,7 @@
  use Exception;
  use App\Models\User;
  
-class TwitterController extends Controller
+class TwitterSocialController extends Controller
 {
     public function loginwithTwitter()
     {
