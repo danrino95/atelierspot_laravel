@@ -23,6 +23,8 @@
               <h1 style="letter-spacing: 30px;"><strong>SECLA</strong></h1>
               <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
               <h3 style="margin-top:10px;">Coming Soon</h3>
+              <a class="btn btn-danger" href="{{ route('logout') }}"
+                                         @click.prevent="$root.submit();"> {{ __('Log Out') }}</a>
             </div>
           </div>
         </div>
