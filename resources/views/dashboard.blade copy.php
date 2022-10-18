@@ -15,7 +15,6 @@
             <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
               <h1><strong>Atelier Spot</strong></h1>
               <h3><strong>Coming Soon</strong></h3>
-              <p class="small">– Do It All –</p>
               <!--.btn.btn-danger(href='#',role='button', onclick='cameraSet()') + ADD LINE-->
             </div>
           </div>
