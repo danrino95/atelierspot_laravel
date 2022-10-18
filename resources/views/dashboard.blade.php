@@ -23,14 +23,7 @@
               <h1 style="letter-spacing: 30px;"><strong>SECLA</strong></h1>
               <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
               <h3 style="margin-top:10px;">Coming Soon</h3>
-              <form method="any" action="{{ route('logout') }}" x-data>
-                    @csrf
-
-                    <x-jet-responsive-nav-link href="{{ route('logout') }}"
-                                   @click.prevent="$root.submit();">
-                        {{ __('Log Out') }}
-                    </x-jet-responsive-nav-link>
-                </form>
+              <a class="btn btn-danger" href="{{ route('login') }}">{{ __('Login') }}</a>
             </div>
           </div>
         </div>
