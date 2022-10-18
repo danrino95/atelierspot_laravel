@@ -18,8 +18,8 @@
           <div class="row">
             <div class="col">
             <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
-              <h1><strong>S E C L A <span style="font-size:15px">by Atelier Spot</span></strong></h1>
-              <h1><span style="font-size:15px">by Atelier Spot</span></h1>
+              <h1><strong>S E C L A</strong></h1>
+              <h6>by Atelier</h6>
               <h3><strong>Coming Soon</strong></h3>
               <p class="small">– Do It All –</p>
             </div>
