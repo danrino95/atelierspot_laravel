@@ -11,7 +11,7 @@ use Razorpay\Api\Errors\SignatureVerificationError;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
 use App\Http\Controllers\Auth\FacebookSocialiteController;
 use App\Http\Controllers\Auth\GithubSocialiteController;
-use App\Http\Controllers\Auth\TwitterController;
+use App\Http\Controllers\Auth\TwitterSocialController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
