@@ -53,7 +53,7 @@ return [
     'twitter' => [
         'client_id' => 'c3llaUNDMGFFb0RNLVhxSEVYVEU6MTpjaQ',
         'client_secret' => 'JDHcGNno8kNLv0DpkkTgUL3oo8FZBTXNc7F8VCERg13vFlO8vL',
-        'redirect' => 'https://danrino.cf/callback/twitter',
+        'redirect' => 'https://danrino.cf/auth/callback/twitter',
     ],
 
 ];

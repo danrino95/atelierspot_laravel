@@ -1,13 +1,12 @@
 <?php
  
-namespace App\Http\Controllers;
- 
-use Illuminate\Http\Request;
- 
-use Auth;
-use Exception;
-use Socialite;
-use App\Models\User;
+ namespace App\Http\Controllers\Auth;
+   
+ use App\Http\Controllers\Controller;
+ use Socialite;
+ use Auth;
+ use Exception;
+ use App\Models\User;
  
 class TwitterController extends Controller
 {
