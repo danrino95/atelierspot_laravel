@@ -19,7 +19,7 @@
             <div class="col">
             <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
               <h1><strong>S E C L A</strong></h1>
-              <h5 class="mb-2" style="letter-spacing: 20px;"><b>BY ATELIERSPOT</b></h5>
+              <h5 class="mb-2" style="letter-spacing: 25px;"><b>BY ATELIERSPOT</b></h5>
               <h3><strong>Coming Soon</strong></h3>
             </div>
           </div>
