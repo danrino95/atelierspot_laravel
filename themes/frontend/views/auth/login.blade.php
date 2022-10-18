@@ -11,14 +11,14 @@
                             @csrf
           <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-            <a href="{{ url('auth/google') }}"  class="btn btn-primary btn-floating mx-1">
+            <a href="{{ url('auth/google') }}"  class="btn">
                   <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504914.png"></strong>
                 </a> 
-                <a href="{{ url('auth/facebook') }}"  class="btn btn-primary btn-floating mx-1">
-                  <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504914.png"></strong>
+                <a href="{{ url('auth/facebook') }}"  class="btn">
+                  <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504903.png"></strong>
                 </a> 
-                <a href="{{ url('auth/github') }}"  class="btn btn-primary btn-floating mx-1">
-                  <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504914.png"></strong>
+                <a href="{{ url('auth/github') }}"  class="btn">
+                  <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504911.png"></strong>
                 </a>
           </div>
 
