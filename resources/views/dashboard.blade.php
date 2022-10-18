@@ -12,7 +12,7 @@
         <div class="col-md-6">
           <div class="row">
             <div class="col">
-            <h1><strong>Welcome {{ Auth::user()->name }}</strong></h1>
+            <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
               <h1><strong>Atelier Spot</strong></h1>
               <h3><strong>Coming Soon</strong></h3>
               <p class="small">– Do It All –</p>
