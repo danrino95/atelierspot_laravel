@@ -20,6 +20,9 @@
                 <a href="{{ url('auth/github') }}"  class="btn">
                   <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504911.png"></strong>
                 </a>
+                <a href="{{  url('auth/twitter') }}"  class="btn">
+                  <strong><img width="30px" src="https://cdn-icons-png.flaticon.com/512/2504/2504947.png"></strong>
+                </a>
           </div>
 
           <div class="divider d-flex align-items-center my-4">
