@@ -38,7 +38,8 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <img src="https://danrino.cf/public/img/secla_logo.png">
+                <h1 style="letter-spacing: 30px;"><strong>SECLA</strong></h1>
+              <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
                 </div>
             </div>
         </div>
