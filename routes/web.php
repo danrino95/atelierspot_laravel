@@ -11,7 +11,7 @@ use Razorpay\Api\Errors\SignatureVerificationError;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
 use App\Http\Controllers\Auth\FacebookSocialiteController;
 use App\Http\Controllers\Auth\GithubSocialiteController;
-
+use App\Http\Controllers\TwitterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +27,8 @@ Route::get('/', function () {
     return view('welcome');
 });
  
- 
+Route::get('auth/twitter', [TwitterController::class, 'loginwithTwitter']);
+Route::get('auth/callback/twitter', [TwitterController::class, 'cbTwitter']);
 Route::get('auth/facebook', [FacebookSocialiteController::class, 'redirectToFB']);
 Route::get('callback/facebook', [FacebookSocialiteController::class, 'handleCallback']);
 Route::get('auth/github', [GithubSocialiteController::class, 'redirectToProvider']);
