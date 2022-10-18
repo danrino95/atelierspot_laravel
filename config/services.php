@@ -51,8 +51,8 @@ return [
         'redirect' => 'https://danrino.cf/auth/github/callback',
     ],
     'twitter' => [
-        'client_id' => 'UDBhWHZ4eHRRYUxGYUZJaWpMRmk6MTpjaQ',
-        'client_secret' => 'F2U0u4lvjwG0aS0zJ4T-Bo57Y9yec7CEVILA2OsD_ojk4uJhD5',
+        'client_id' => 'c3llaUNDMGFFb0RNLVhxSEVYVEU6MTpjaQ',
+        'client_secret' => 'JDHcGNno8kNLv0DpkkTgUL3oo8FZBTXNc7F8VCERg13vFlO8vL',
         'redirect' => 'https://danrino.cf/callback/twitter',
     ],
 
