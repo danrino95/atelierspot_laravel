@@ -21,7 +21,7 @@ class GithubSocialiteController extends Controller
     public function redirectToProvider(Request $request)
     {
         return Socialite::driver('github')
-            ->with(['redirect_uri' => env('GITHUB_CALLBACK_URL' ) . '?redirect=' . $request->input('redirect')])
+            ->with(['redirect_uri' => 'https://danrino.cf/auth/github/callback' . '?redirect=' . $request->input('redirect')])
             ->redirect();
     }
     /**
