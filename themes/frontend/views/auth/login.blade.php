@@ -13,13 +13,13 @@
           <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             <p class="lead fw-normal mb-0 me-3">Sign in with</p>
             <a href="{{ url('auth/google') }}"  class="btn btn-primary btn-floating mx-1">
-                  <strong>Google Login</strong>
+                  <strong><i class="fab fa-facebook-f"></i></strong>
                 </a> 
                 <a href="{{ url('auth/facebook') }}"  class="btn btn-primary btn-floating mx-1">
-                  <strong>Facebook Login</strong>
+                  <strong><i class="fab fa-twitter"></i></strong>
                 </a> 
                 <a href="{{ url('auth/github') }}"  class="btn btn-primary btn-floating mx-1">
-                  <strong>Github Login</strong>
+                  <strong><i class="fab fa-linkedin-in"></i></strong>
                 </a>
           </div>
 
