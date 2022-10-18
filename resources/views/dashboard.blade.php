@@ -1,4 +1,4 @@
-<!-- <x-app-layout> -->
+<x-app-layout>
     <!-- <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
@@ -28,4 +28,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="http://atelierspot.com/script.js"></script>
-<!-- </x-app-layout> -->
+</x-app-layout>
