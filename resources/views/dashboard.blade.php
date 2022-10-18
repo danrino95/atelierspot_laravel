@@ -20,7 +20,7 @@
           <div class="row">
             <div class="col">
             <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
-              <h1 style="letter-spacing: 20px;"><strong>SECLA</strong></h1>
+              <h1 style="letter-spacing: 30px;"><strong>SECLA</strong></h1>
               <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
               <h3><strong>Coming Soon</strong></h3>
             </div>
