@@ -3,9 +3,11 @@ namespace App\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
-use Illuminate\Routing\Controller;
-
+use App\Http\Controllers\Controller;
 use Socialite;
+use Auth;
+use Exception;
+use App\Models\User;
 
 class GithubSocialiteController extends Controller
 {
