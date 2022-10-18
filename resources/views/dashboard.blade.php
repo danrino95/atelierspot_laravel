@@ -12,7 +12,10 @@
   </head>
   <body> 
     <div class="container-fluid fixed-top header disable-selection">
-      <div class="row">
+      <div class="row" style="
+    display: flex;
+    justify-content: center;
+">
         <div class="col-md-6">
           <div class="row">
             <div class="col">
