@@ -18,13 +18,12 @@
           <div class="row">
             <div class="col">
             <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
-              <h1><strong>S E C L A</strong></h1>
-              <h5 class="mb-2" style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
+              <h1><strong>SECLA</strong></h1>
+              <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
               <h3><strong>Coming Soon</strong></h3>
             </div>
           </div>
         </div>
-        <div class="col"></div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
