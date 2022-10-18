@@ -38,10 +38,10 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                <h1 class="text-center" style="letter-spacing: 30px;"><strong>SECLA</strong></h1>
+                <h1 class="text-center" style="letter-spacing: 30px;font-size:30px"><strong>SECLA</strong></h1>
                 </div>
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
+                <h5 style="letter-spacing: 30px;"><b>BY | ATELIERSPOT</b></h5>
         </div>
             </div>
         </div>
