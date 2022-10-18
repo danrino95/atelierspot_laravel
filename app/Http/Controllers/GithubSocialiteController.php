@@ -1,8 +1,6 @@
 <?php
 namespace App\Http\Controllers\Auth;
-
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
+   
 use App\Http\Controllers\Controller;
 use Socialite;
 use Auth;
@@ -12,29 +10,21 @@ use App\Models\User;
 class GithubSocialiteController extends Controller
 {
     /**
-     * Redirect the user to the GitHub authentication page.
-     * Also passes a `redirect` query param that can be used
-     * in the handleProviderCallback to send the user back to
-     * the page they were originally at.
+     * Create a new controller instance.
      *
-     * @param Request $request
-     * @return Response
+     * @return void
      */
-    public function redirectToProvider(Request $request)
+    public function redirectToProvider()
     {
-        return Socialite::driver('github')
-            ->with(['redirect_uri' => 'https://danrino.cf/auth/github/callback' . '?redirect=' . $request->input('redirect')])
-            ->redirect();
+        return Socialite::driver('github')->redirect();
     }
+       
     /**
-     * Obtain the user information from GitHub.
-     * If a "redirect" query string is present, redirect
-     * the user back to that page.
+     * Create a new controller instance.
      *
-     * @param Request $request
-     * @return Response
+     * @return void
      */
-    public function handleProviderCallback(Request $request)
+    public function handleProviderCallback()
     {
         try {
      
@@ -54,7 +44,7 @@ class GithubSocialiteController extends Controller
                     'email' => $user->email,
                     'social_id'=> $user->id,
                     'social_type'=> 'github',
-                    'password' => encrypt('my-github')
+                    'password' => encrypt('github123456')
                 ]);
      
                 Auth::login($newUser);
@@ -65,17 +55,5 @@ class GithubSocialiteController extends Controller
         } catch (Exception $e) {
             dd($e->getMessage());
         }
-
-        // 
-        // $user = Socialite::driver('github')->user();
-
-        // Session::put('user', $user);
-
-        // $redirect = $request->input('redirect');
-        // if($redirect)
-        // {
-        //     return redirect($redirect);
-        // }
-        // return 'GitHub auth successful. Now navigate to a demo.';
     }
 }
