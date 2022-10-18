@@ -45,5 +45,10 @@ return [
         'client_secret' => '22115177a16a9e6008f85d86a96feb30',
         'redirect' => 'http://danrino.cf/callback/facebook',
       ], 
+      'github' => [
+        'client_id' => 'd1484bc97f248496bf35',
+        'client_secret' => 'e158e669cf264ccf1d8c5a6c368d4cb435c8737d',
+        'redirect' => 'https://danrino.cf/auth/github/callback',
+    ],
 
 ];

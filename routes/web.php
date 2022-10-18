@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Razorpay\Api\Errors\SignatureVerificationError;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
 use App\Http\Controllers\Auth\FacebookSocialiteController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,8 +29,8 @@ Route::get('/', function () {
  
 Route::get('auth/facebook', [FacebookSocialiteController::class, 'redirectToFB']);
 Route::get('callback/facebook', [FacebookSocialiteController::class, 'handleCallback']);
-
- 
+Route::get('auth/github', [FacebookSocialiteController::class, 'redirectToProvider']);
+Route::get('auth/github/callback', [FacebookSocialiteController::class, 'handleProviderCallback']); 
 Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle']);
 Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback']);
 
