@@ -17,9 +17,7 @@ class FacebookSocialiteController extends Controller
      */
     public function redirectToFB()
     {
-        return Socialite::driver('github')
-            ->with(['redirect_uri' => 'https://danrino.cf/callback/facebook' . '?redirect=' . $request->input('redirect')])
-            ->redirect();
+        return Socialite::driver('facebook')->redirect();
     }
        
     /**
