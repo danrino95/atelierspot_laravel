@@ -24,9 +24,13 @@
               <h5 style="letter-spacing: 30px;"><b>BY|ATELIERSPOT</b></h5>
               <h3 style="margin-top:10px;">Coming Soon</h3>
               <form method="POST" action="{{ route('logout') }}" x-data>
-              <a class="btn btn-danger" href="{{ route('logout') }}"
-                                         @click.prevent="$root.submit();"> {{ __('Log Out') }}</a>
-</form>
+                    @csrf
+
+                    <x-jet-responsive-nav-link href="{{ route('logout') }}"
+                                   @click.prevent="$root.submit();">
+                        {{ __('Log Out') }}
+                    </x-jet-responsive-nav-link>
+                </form>
             </div>
           </div>
         </div>
