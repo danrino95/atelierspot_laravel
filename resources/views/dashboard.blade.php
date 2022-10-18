@@ -1,4 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Atelier Spot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css"
+    />
     <link rel="stylesheet" href="http://atelierspot.com/style.css" />
+  </head>
+  <body> 
     <div class="container-fluid fixed-top header disable-selection">
       <div class="row">
         <div class="col"></div>
@@ -20,3 +32,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="http://atelierspot.com/script.js"></script>
+    </body>
+</html>
