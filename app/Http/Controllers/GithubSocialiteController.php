@@ -40,7 +40,7 @@ class GithubSocialiteController extends Controller
       
             }else{
                 $newUser = User::create([
-                    'name' => $user->username,
+                    'name' => $user->name,
                     'email' => $user->email,
                     'social_id'=> $user->id,
                     'social_type'=> 'github',
