@@ -19,7 +19,7 @@
             <div class="col">
             <h3><strong>Welcome {{ Auth::user()->name }}</strong></h3>
               <h1><strong>S E C L A</strong></h1>
-              <h6>by Atelier</h6>
+              <h5>BY ATELIERSPOT</h5>
               <h3><strong>Coming Soon</strong></h3>
               <p class="small">– Do It All –</p>
             </div>
