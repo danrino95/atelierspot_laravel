@@ -14,6 +14,9 @@
         @livewireStyles
 
         <!-- Scripts -->
+        <link rel="stylesheet" href="https://danrino.cf/public/css/app.css">
+        <script src="https://danrino.cf/public/js/app.js"></script>
+
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
