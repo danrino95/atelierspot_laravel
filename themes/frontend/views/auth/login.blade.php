@@ -12,17 +12,15 @@
                             @csrf
           <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-            <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-facebook-f"></i>
-            </button>
-
-            <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-linkedin-in"></i>
-            </button>
+            <a href="{{ url('auth/google') }}"  class="btn btn-primary btn-floating mx-1">
+                  <strong>Google Login</strong>
+                </a> 
+                <a href="{{ url('auth/facebook') }}"  class="btn btn-primary btn-floating mx-1">
+                  <strong>Facebook Login</strong>
+                </a> 
+                <a href="{{ url('auth/github') }}"  class="btn btn-primary btn-floating mx-1">
+                  <strong>Github Login</strong>
+                </a>
           </div>
 
           <div class="divider d-flex align-items-center my-4">
@@ -168,15 +166,6 @@
                                     @endif
                                 </div>
                             </div>
-                            <a href="{{ url('auth/google') }}" style="margin-top: 0px !important;background: green;color: #ffffff;padding: 5px;border-radius:7px;" class="ml-2">
-                  <strong>Google Login</strong>
-                </a> 
-                <a href="{{ url('auth/facebook') }}" style="margin-top: 0px !important;background: green;color: #ffffff;padding: 5px;border-radius:7px;" class="ml-2">
-                  <strong>Facebook Login</strong>
-                </a> 
-                <a href="{{ url('auth/github') }}" style="margin-top: 0px !important;background: green;color: #ffffff;padding: 5px;border-radius:7px;" class="ml-2">
-                  <strong>Github Login</strong>
-                </a>
                         </form>
                     </div>
                 </div>
