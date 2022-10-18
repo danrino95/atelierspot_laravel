@@ -13,7 +13,6 @@
   <body> 
     <div class="container-fluid fixed-top header disable-selection">
       <div class="row">
-        <div class="col"></div>
         <div class="col-md-6">
           <div class="row">
             <div class="col">
