@@ -8,13 +8,21 @@
                     <a href="{{ route('dashboard') }}">
                         <x-jet-application-mark class="block h-9 w-auto" />
                     </a>
-                </div>
-
-                <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-jet-nav-link>
+                    @can('admin')
+                    <x-jet-nav-link href="{{ route('admin.dashboard.index') }}" :active="request()->routeIs('admin.dashboard.index')">
+                        {{ __('Admin') }}
+                    </x-jet-nav-link> 
+                    @endcan
+                    @can('business')
+                    <x-jet-nav-link href="{{ route('business.dashboard.index') }}" :active="request()->routeIs('business.dashboard.index')">
+                        {{ __('Business') }}
+                </x-jet-nav-link>
+                    @endcan
+                    @can('client')
+                    <x-jet-nav-link href="{{ route('client.dashboard.index') }}" :active="request()->routeIs('client.dashboard.index')">
+                        {{ __('Client') }}
+                </x-jet-nav-link>
+                    @endcan
                 </div>
             </div>
 
