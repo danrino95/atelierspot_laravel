@@ -46,6 +46,7 @@
     <script src="../assets/js/config.js"></script>
         <!-- Styles -->
         @livewireStyles
+        @powerGridStyles
     </head>
     <body class="font-sans antialiased">
            <!-- Layout wrapper -->
@@ -82,6 +83,7 @@
         @stack('modals')
 
         @livewireScripts
+    @powerGridScripts
 
    <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
